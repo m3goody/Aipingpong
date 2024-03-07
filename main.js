@@ -64,7 +64,7 @@ function startGame()
 }
 
 function draw(){
-if(reset)
+if() // inside the if condition check if the game_status is equal to the value "start".
 {
   background(0); 
   image(video, 0, 0, 700, 600);
@@ -215,3 +215,4 @@ function paddleInCanvas(){
  
   
 }
+
